@@ -1,0 +1,1 @@
+This is an amazing ImageSlider created using HTML ,CSS and JavaScript. 

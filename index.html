@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageSlider</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+<div class="container">
+
+<div class="image-container">
+
+    <img src="bird.png" id="content1" class="active">
+    <img src="heart.png" id="content2" class="">
+    <img src="lief.png" id="content3" class="">
+    <img src="mountain.png" id="content4" class="">
+
+</div>
+
+<div class="dot-container">
+
+    <button onclick="dot(1)" style="background-color: rgb(53, 53, 230);"></button>
+    <button onclick="dot(2)" style="background-color: transparent"></button>
+    <button onclick="dot(3)" style="background-color: transparent;"></button>
+    <button onclick="dot(4)" style="background-color: transparent;"></button>
+
+
+</div>
+
+
+<button id="prev" onclick="prev()">&lt;</button>
+<button id="next" onclick="next()">&gt;</button>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
